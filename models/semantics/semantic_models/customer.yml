@@ -6,7 +6,7 @@ semantic_models:
     description: |
       Customer dimension table. This table contains all customer information
     #The name of the dbt model and schema
-    model: ref('stg_customer_dim')
+    model: ref('stg_customers_dim')
 
 #Entities. These usually correspond to keys in the table.
     entities:
